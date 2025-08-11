@@ -28,3 +28,25 @@ and manage them securely with user authentication.
    ```bash
    git clone https://github.com/your-username/task-manager.git
    cd task-manager
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Add your Firebase config in firebase.js
+
+Run the app
+
+bash
+Copy
+Edit
+npm run dev
+🔮 Future Expansion
+🔍 Filter tasks by Pending / Completed
+
+⏰ Highlight overdue tasks
+
+
+
+📊 Add task statistics & analytics dashboard
