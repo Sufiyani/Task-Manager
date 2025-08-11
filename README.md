@@ -20,40 +20,6 @@ Auth: Firebase Authentication
 UI Library: ShadCN/UI
 Icons: Lucide Icons
 
-📂 Get Started
-1️⃣ Clone the repository
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/task-manager.git
-cd task-manager
-2️⃣ Install dependencies
-
-bash
-Copy
-Edit
-npm install
-3️⃣ Add your Firebase config
-In firebase.js, replace with your Firebase project credentials:
-
-javascript
-Copy
-Edit
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
-4️⃣ Run the app
-
-bash
-Copy
-Edit
-npm run dev
 🔮 Future Expansion
 🔍 Filter tasks by Pending / Completed
 ⏰ Highlight overdue tasks
