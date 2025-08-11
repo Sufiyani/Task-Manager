@@ -1,24 +1,29 @@
-# EduTrack 🎓
+# 📋 Task Manager ✅  
 
-EduTrack is a modern student management system built using React and Firebase. It allows admins to manage student records, including adding, editing, deleting, and tracking student attendance securely and efficiently.
+Task Manager is a modern task management app built using **React** and **Firebase**.  
+It allows users to add, edit, delete, and track tasks with deadlines, mark them as completed or pending,  
+and manage them securely with user authentication.  
 
----
+## 🚀 Features  
+- 🔐 **Firebase Authentication** (Sign Up / Login / Logout)  
+- ➕ **Add / Edit / Delete Tasks**  
+- 📅 **Set Deadlines** for each task  
+- ✅ **Mark tasks as Completed** or keep them Pending  
+- 📊 **Real-time task list display** (per authenticated user)  
+- ⚡ **State management with Zustand**  
+- 🛡 **Form validation** using Formik + Yup  
+- 🎨 **Modern UI** with ShadCN components  
 
-## 🚀 Features
+## 🛠️ Tech Stack  
+- **Frontend:** React.js + Vite  
+- **State Management:** Zustand  
+- **Forms & Validation:** Formik + Yup  
+- **Backend / DB:** Firebase Firestore  
+- **Auth:** Firebase Authentication  
+- **UI Library:** ShadCN/UI  
+- **Icons:** Lucide Icons  
 
-- 🔐 Firebase Authentication (Sign Up / Login / Logout)
-- 📋 Add / Edit / Delete Students
-- 📊 Real-time student list display (per authenticated user)
-- 🌗 Dark/Light Theme Toggle
-- ✅ Role-based access control (each user sees only their own students)
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** React.js + Vite
-- **Backend / DB:** Firebase Firestore
-- **Auth:** Firebase Authentication
-- **Styling:** TailwindCSS (or your CSS framework)
-- **Icons:** Lucide Icons
-
+## 🔮 Future Expansion  
+- 🔍 Filter tasks by Pending / Completed  
+- ⏰ Highlight overdue tasks    
+- 📊 Add task statistics & analytics dashboard  
